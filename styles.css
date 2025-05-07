@@ -5,18 +5,17 @@
 
 html, body {
     height: 100%;
-    font-family: "DM Sans", sans-serif;
-}
-
-body {
     background-color: white;
     background-image: radial-gradient(#E2E8F0 1px, transparent 1px);
     background-size: 20px 20px;
-  }
+    font-family: "DM Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
 
 
 /* Typography */
-
 h1, h2, h3 {
     font-family: "Instrument Serif", serif;
     font-weight: 400;
@@ -97,6 +96,7 @@ p {
     justify-content: space-between;
     align-items: center;
     height: 100vh;
+    padding: 40px 20px;
 }
 
 .hero {
@@ -140,7 +140,7 @@ p {
 
 .info-box p{
     display: inline-block;
-    padding: 8px 12px 8px 12px;
+    padding: 12px;
     border: 1px solid #F1F5F9;
     border-radius: 8px;
     background-color: #fff;
